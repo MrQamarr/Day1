@@ -1,4 +1,4 @@
-User = input(''''enter the direction in which you want to go? is it S1, S2, S3, or S4?
+User = input('''enter the direction in which you want to go? is it S1, S2, S3, or S4?
 Depending on your choice, you will be assigned a color and you can move in that direction: ''').lower()
 a = False
 while User != "Exit":
