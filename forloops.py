@@ -20,4 +20,4 @@ for i in range(2, a):
     hollowC = "  " * (i - 2) 
     print(hollowL + "* " + hollowC + "*")
 
-print("* " * a)
+print("* " * a) # "ok done"
