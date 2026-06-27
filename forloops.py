@@ -20,4 +20,8 @@ for i in range(2, a):
     hollowC = "  " * (i - 2) 
     print(hollowL + "* " + hollowC + "*")
 
-print("* " * a) # "ok done this"
+print("* " * a)
+
+
+a = "Shaik Naveed"
+print(a[0:5])
