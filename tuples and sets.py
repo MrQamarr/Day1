@@ -1,3 +1,6 @@
+from datetime import datetime
+from math import ceil
+
 product_data = [
     {
         'product_1' : 'Laptop',
@@ -12,16 +15,15 @@ product_data = [
                 'navy blue': 69000,
                 'deep black': 70000
             }
-        ]
-        ,
+        ],
+
         'Brand': 'Helwett Pakard',
         'average rating': 4.3,
         'reviews': [
             {
                 'rating': 4.5,
                 'reviewer_name': 'Pablo Escobar',
-                'comment' : 'A great laptop. Go for it .',
-                'Date of review': '10 - 10 - 2022, 13:55 pm'
+                'comment' : 'A great laptop. Go for it .', 'Date of review': '10 - 10 - 2022, 13:55 pm'
 
             },
 
@@ -45,7 +47,7 @@ product_data = [
     },
 
     {
-            'product_2' : 'Laptop',
+        'product_2' : 'Laptop',
         'name': 'Hp Omen RTX 3060, 6GB ram, 1TB SSD, 3 Years Product warranty',
         'price': 77000,
         'discount': '10 %',
@@ -97,7 +99,7 @@ product_data = [
     },
 
     {
-            'product_3' : 'Laptop',
+        'product_3' : 'Laptop',
         'name': 'Rog Strix G17 RTX 4080, 6GB ram, 1GB SSD, 3 Years Product warranty',
         'price': 157000,
         'discount': '10 %',
@@ -252,7 +254,7 @@ product_data = [
     },
 
     {
-            'product_6' : 'Laptop',
+        'product_6' : 'Laptop',
         'name': 'Asus rog strix, RTX 5090, 32GB ram, 2TB SSD, 4 Years Product warranty',
         'price': 367000,
         'discount': '10 %',
@@ -472,3 +474,4 @@ print(product_data[0]['average rating'])
 print(product_data[0]['reviews'][1])
 print(product_data[0]['reviews'][1]['reviewer_name'])
 print(product_data[9]['colour'][0]['jet black'])
+print(product_data[7]['product_8']) 
